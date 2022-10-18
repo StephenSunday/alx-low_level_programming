@@ -2,21 +2,21 @@
 
 /**
  * main - Entry point
- * autor: Nonny
+ * autor: Steve
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int Nonny;
+	int Steve;
 
-	for (Nonny = 48; Nonny < 58; Nonny++)
+	for (Steve = 48; Steve < 58; Steve++)
 	{
-		putchar(Nonny);
-	if (Nonny != 57)
+		putchar(Steve);
+		if (Steve != 57)
 		{
-													putchar(',');
-													putchar(' ');
-												}
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
