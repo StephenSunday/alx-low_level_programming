@@ -12,11 +12,13 @@ int main(void)
 	for (Nonny = 48; Nonny < 58; Nonny++)
 	{
 		putchar(Nonny);
+
 		if (Nonny != 57)
-	{
-		putchar(',');
-																		putchar(' ');
-																	}
-		putchar('\n');
-		return (0);
+												{
+													putchar(',');
+																							putchar(' ');
+																						}
+											}
+	putchar('\n');
+	return (0);
 }
